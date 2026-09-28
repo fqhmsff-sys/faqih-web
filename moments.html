@@ -52,7 +52,6 @@
     </p>
   </section>
 
-
   <section class="section moments-section">
 
     <div class="moments-grid premium-grid">
@@ -77,7 +76,6 @@
         </figcaption>
       </figure>
 
-
       <figure class="moment-side">
         <button
           class="photo-button"
@@ -100,13 +98,11 @@
 
     </div>
 
-
     <div id="addedMoments" class="moments-grid premium-grid"></div>
 
   </section>
 
 </main>
-
 
 <div class="add-guide" id="addGuide" aria-hidden="true">
 
@@ -167,7 +163,6 @@
 
 </div>
 
-
 <div class="lightbox" id="lightbox" aria-hidden="true">
 
   <button
@@ -188,7 +183,6 @@
   </div>
 
 </div>
-
 
 <footer>
 
@@ -235,7 +229,6 @@
       </svg>
     </a>
 
-
     <a
       class="social-link"
       href="https://www.threads.com/@qiym.___"
@@ -279,7 +272,7 @@
 
 </footer>
 
-
+<script src="data.js"></script>
 <script src="site-data.js"></script>
 
 <script>
@@ -320,11 +313,9 @@
 
   });
 
-
   const lb = document.getElementById("lightbox");
   const lbImg = document.getElementById("lightboxImage");
   const lbClose = document.getElementById("lightboxClose");
-
 
   document
     .querySelectorAll("[data-lightbox]")
@@ -347,7 +338,6 @@
 
     });
 
-
   function closeLb() {
 
     lb.classList.remove("open");
@@ -361,12 +351,10 @@
 
   }
 
-
   lbClose.addEventListener(
     "click",
     closeLb
   );
-
 
   lb.addEventListener(
     "click",
@@ -379,7 +367,6 @@
     }
   );
 
-
   document.addEventListener(
     "keydown",
     event => {
@@ -391,6 +378,8 @@
     }
   );
 </script>
+
+<script src="site-auth.js"></script>
 
 </body>
 </html>
